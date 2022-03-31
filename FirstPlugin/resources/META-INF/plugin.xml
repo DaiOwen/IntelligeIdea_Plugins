@@ -1,0 +1,52 @@
+<idea-plugin>
+    <id>com.your.company.unique.plugin.id</id>
+    <name>虎虎的第一个插件</name>
+    <version>1.0</version>
+    <vendor email="1849160651@qq.com" url="http://www.hikvision.com">海康威视</vendor>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <toolWindow canCloseContents="true" anchor="bottom"
+                    id="SmartIM"
+                    factoryClass="MyToolWindowFactory">
+        </toolWindow>
+
+        <!-- 在Setting中添加自定义配置模版 -->
+        <projectConfigurable groupId="Other Settings" displayName="My Config" id="thief.id"
+                             instance="MySearchableConfigurable"/>
+    </extensions>
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="HiId_FileMenu" class="com.dai.HelloPlugin" text="虎虎-第一个插件">
+            <add-to-group group-id="FileMenu" anchor="first"/>
+            <add-to-group group-id="MainMenu" anchor="first"/>
+            <add-to-group group-id="EditMenu" anchor="first"/>
+            <add-to-group group-id="ViewMenu" anchor="first"/>
+            <add-to-group group-id="CodeMenu" anchor="first"/>
+            <add-to-group group-id="AnalyzeMenu" anchor="first"/>
+            <add-to-group group-id="RefactoringMenu" anchor="first"/>
+            <add-to-group group-id="BuildMenu" anchor="first"/>
+            <add-to-group group-id="RunMenu" anchor="first"/>
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+            <add-to-group group-id="WindowMenu" anchor="first"/>
+            <add-to-group group-id="HelpMenu" anchor="first"/>
+        </action>
+        <action id="HiId_EditorPopupMenu" class="com.dai.HelloPlugin" text="虎虎-第一个插件">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+        <action id="HiId_MainToolBar" class="com.dai.HelloPlugin" text="虎虎-第一个插件">
+            <add-to-group group-id="MainToolBar" anchor="first"/>
+        </action>
+    </actions>
+
+</idea-plugin>
