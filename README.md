@@ -14,3 +14,7 @@
 **5、外部功能**：这一个是用于把插件能力与外部系统结合，比如你是需要把拿到的接口上传到服务器，还是从远程下载文件等等
 
 （**参考文章**：[IDEA插件开发](https://bugstack.cn/md/assembly/idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.html)）
+
+demo演示效果
+![image](https://user-images.githubusercontent.com/39590385/161045623-9b6c6a02-5028-4f46-9500-d72db3fc17e0.png)
+![image](https://user-images.githubusercontent.com/39590385/161045692-3e675f0e-b34c-4090-8c0e-f3c5fd081061.png)
