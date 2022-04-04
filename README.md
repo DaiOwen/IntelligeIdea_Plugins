@@ -15,6 +15,13 @@
 
 （**参考文章**：[IDEA插件开发](https://bugstack.cn/md/assembly/idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.html)）
 
-demo演示效果
+最终效果展示：
+1、demo展示（主要实现点击当前类，当取当前类的信息）
 ![image](https://user-images.githubusercontent.com/39590385/161045623-9b6c6a02-5028-4f46-9500-d72db3fc17e0.png)
 ![image](https://user-images.githubusercontent.com/39590385/161045692-3e675f0e-b34c-4090-8c0e-f3c5fd081061.png)
+
+2、《文档速览》插件（将文档迅速倒入idea,进行读取，一边开发、一边读取文档，不再反复切换软件）
+
+![image](https://user-images.githubusercontent.com/39590385/161471088-5295aee7-cc18-4e34-9a7e-b35a753e0b5e.png)
+![image](https://user-images.githubusercontent.com/39590385/161471089-34cf3d92-48b9-4da5-b142-2abe4e557700.png)
+
